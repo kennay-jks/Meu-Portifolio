@@ -271,18 +271,18 @@ footer p::selection {
 
 @media (max-width: 700px) {
     body {
-        background: #0a0a0a url('../image/fundo/Mockup4.jpg') center no-repeat fixed ;
+        background: #0a0a0a url('../image/Urban.png') center no-repeat fixed ;
         background-size: cover;
     }
     .logo {
-    height: 40px;
-    width: 113px;
+    height: 25px;
+    width: 125px;
     }
     .rds1 {
         display: flex;
         width: 38px;
         height: 38px;
-        background: var(--color2);
+        background: var(--color1);
         padding: 8px;
         border-radius: 50%;
     }
@@ -290,7 +290,7 @@ footer p::selection {
         display: flex;
         width: 38px;
         height: 38px;
-        background: var(--color2);
+        background: var(--color1);
         padding: 8px;
         border-radius: 50%;
     }
@@ -307,7 +307,7 @@ footer p::selection {
         width: 100vw;
         height: auto;
     }
-    .img {
+    .tira {
         display: none;
     }
     .title {
