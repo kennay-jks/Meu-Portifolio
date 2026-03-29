@@ -28,7 +28,7 @@ html {
     display: none;
 }
 body {
-    background: #0a0a0a url('../image/Mockup2.png') center no-repeat fixed ;
+    background: #0a0a0a url('../image/Mockup2.jpg') center no-repeat fixed ;
     background-size: cover;
 }
 h2 {
@@ -271,7 +271,7 @@ footer p::selection {
 
 @media (max-width: 700px) {
     body {
-        background: #0a0a0a url('../image/Urban.png') center no-repeat fixed ;
+        background: #0a0a0a url('../image/Urban.jpg') center no-repeat fixed ;
         background-size: cover;
     }
     .logo {
