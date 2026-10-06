@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: "Halfre";
-    src: url("../font/halfre.otf"); /* para IE */
-    src: local("Halfre"), url("../font/halfre.otf") format("opentype");
+    font-family: "AITOSans";
+    src: url("../font/AITOSans.ttf"); /* para IE */
+    src: local("AITOSans"), url("../font/AITOSans.ttf") format("truetype");
 }
 :root {
     --color1: #0a0a0a;
@@ -12,7 +12,7 @@
     --color4: #323646;
 }
 * {
-    font-family: "Halfre", Arial, Helvetica, sans-serif;
+    font-family: "AITOSans", Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -110,7 +110,7 @@ section{
     color: var(--color1);
 }
 .iam {
-    font-size: 1.2em;
+    font-size: 1.3em;
     letter-spacing: 2px;
     max-width: 800px;
     margin: 10px 0px;
