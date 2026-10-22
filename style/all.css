@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: "AITOSans";
-    src: url("../font/AITOSans.ttf"); /* para IE */
-    src: local("AITOSans"), url("../font/AITOSans.ttf") format("truetype");
+    font-family: "Halfre";
+    src: url("../font/halfre.otf"); /* para IE */
+    src: local("halfre"), url("../font/halfre.otf") format("truetype");
 }
 :root {
     --color1: #0a0a0a;
@@ -12,12 +12,12 @@
     --color4: #323646;
 }
 * {
-    font-family: "AITOSans", Arial, Helvetica, sans-serif;
+    font-family: "halfre", Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     box-sizing: border-box;
-    color: var(--color2);
+    color: var(--color4);
     transition: .2s;
     text-transform: uppercase;
 }
@@ -28,10 +28,10 @@ html {
     display: none;
 }
 body {
-    background: #D0C8B4;
+    background: var(--color2);
 }
 h2 {
-    color: var(--color3);
+    color: var(--color4);
 }
 a {
     text-decoration: none;
@@ -46,7 +46,7 @@ nav {
     align-items: center;
     width: 100vw;
     height: auto;
-    background: var(--color3);
+    background: var(--color4);
     padding: 5px 8%;
     padding-top: 5px;
 }
@@ -55,17 +55,18 @@ nav {
 }
 .logo {
     height: 31px;
-    width: 145px;
+    width: 95px;
 }
 .rds1 {
-    display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
     width: 40px;
     height: 40px;
-    background: var(--color1);
-    padding: 6px;
+    background: var(--color2);
+    padding: 8px;
     border-radius: 50%;
+    overflow: hidden;
 }
 .rds1 img {
     width: 40px;
@@ -73,11 +74,60 @@ nav {
 }
 .rds2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
-    background: var(--color1);
+    background: var(--color2);
     padding: 8px;
     border-radius: 50%;
+    overflow: hidden;
+}
+.rds3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: var(--color2);
+    padding: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.rds4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: var(--color3);
+    padding: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.ani:hover {
+    animation: .2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: var(--color2);
+    padding: 8px;
+    border-radius: 20%;
+    overflow: hidden;
+}
+.ani1:hover {
+    animation: .2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: var(--color3);
+    padding: 8px;
+    border-radius: 20%;
+    overflow: hidden;
 }
 .redes {
     display: flex;
@@ -93,7 +143,7 @@ nav {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background: var(--color4);
+    background: var(--color2);
 }
 section{
     display: flex;
@@ -106,8 +156,8 @@ section{
     height: auto;
 }
 ::selection{
-    background: var(--color2);
-    color: var(--color1);
+    background: var(--color4);
+    color: var(--color3);
 }
 .iam {
     font-size: 1.3em;
@@ -146,7 +196,8 @@ section{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: var(--color1);
+    background: url(../image/fuji.png) var(--color2) center center no-repeat fixed;
+    background-size: cover;
     height: auto;
     padding: 0px 90px;
     overflow: hidden;
@@ -276,18 +327,18 @@ footer p::selection {
 
 @media (max-width: 700px) {
     body {
-        background: #0a0a0a url('../image/Urban.jpg') center no-repeat fixed ;
+        background: var(--color2) url('../image/Urban.jpg') center no-repeat fixed ;
         background-size: cover;
     }
     .logo {
     height: 25px;
-    width: 125px;
+    width: 80px;
     }
     .rds1 {
         display: flex;
         width: 38px;
         height: 38px;
-        background: var(--color1);
+        background: var(--color2);
         padding: 8px;
         border-radius: 50%;
     }
@@ -295,7 +346,7 @@ footer p::selection {
         display: flex;
         width: 38px;
         height: 38px;
-        background: var(--color1);
+        background: var(--color2);
         padding: 8px;
         border-radius: 50%;
     }
@@ -336,6 +387,7 @@ footer p::selection {
     }
     .abo {
         height: auto;
+        background: var(--color2);
     }
     .skill {
         display: flex;
