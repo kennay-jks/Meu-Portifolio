@@ -2,82 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VANITAS</title>
-   <link rel="shortcut icon" href="image/favicon1.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="image/favicon1.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/all.css">
 </head>
 <body>
     <nav>
-        <a href="/"><img src="image/vanitas.png" alt="" class="logo"></a>
-        <div class="redes">
-            <a href="https://www.instagram.com/aittobranding/"
-             class="rds1 ani" target="_blank">
-                <img src="image/instagram.svg" alt="">
-            </a>
-            <a href="mailto:aittobranding@gmail.com"
-             class="rds2 ani" target="_blank">
-                <img src="image/arroba.svg" alt="">
-            </a>
-              <a href="Pt-br.html"
-             class="rds3 ani" target="_parent">
-                <img src="image/traducao.svg" alt="">
-            </a>
+        <a href="#top" class="logo-link"><img src="image/vanitas.png" alt="VANITAS" class="logo"></a>
+        <div class="menu">
+            <a href="#about" data-i18n="nav_about">About</a>
+            <a href="#work" data-i18n="nav_work">Work</a>
+            <a href="#contact" data-i18n="nav_contact">Contact</a>
+            <button type="button" id="langBtn" class="lang-btn" aria-label="Language">
+                <img src="image/traducao.svg" alt=""><span id="langCode">EN</span>
+            </button>
         </div>
     </nav>
-    <main>
+    <main id="top">
         <section class="abo">
             <div class="ccon carr1">
                 <div class="track down">
-                <figure class="slide"><img src="image/slider/lastlab.png" alt="Descrição da imagem B1"><figcaption>Texto da imagem B1</figcaption></figure>
-                <figure class="slide"><img src="image/slider/coffee.png" alt="Descrição da imagem B2"><figcaption>Texto da imagem B2</figcaption></figure>
-                <figure class="slide"><img src="image/slider/darkangle.png" alt="Descrição da imagem B3"><figcaption>Texto da imagem B3</figcaption></figure>
-                <figure class="slide"><img src="image/slider/img4.png" alt="Descrição da imagem B4"><figcaption>Texto da imagem B4</figcaption></figure>
-                <figure class="slide" aria-hidden="true"><img src="image/slider/lastlab.png" alt=""><figcaption>Texto da imagem B1</figcaption></figure>
+                <figure class="slide"><img src="image/slider/lastlab.png" alt=""></figure>
+                <figure class="slide"><img src="image/slider/coffee.png" alt=""></figure>
+                <figure class="slide"><img src="image/slider/darkangle.png" alt=""></figure>
+                <figure class="slide"><img src="image/slider/img4.png" alt=""></figure>
+                <figure class="slide" aria-hidden="true"><img src="image/slider/lastlab.png" alt=""></figure>
                 </div>
             </div>
-
             <div class="ccon carr2">
                 <div class="track up">
-                <figure class="slide"><img src="image/slider2/Screen(3).jpg" alt="Descrição da imagem B1"><figcaption>Texto da imagem B1</figcaption></figure>
-                <figure class="slide"><img src="image/slider2/Exhibition.jpg" alt="Descrição da imagem B2"><figcaption>Texto da imagem B2</figcaption></figure>
-                <figure class="slide"><img src="image/slider2/flavory.png" alt="Descrição da imagem B3"><figcaption>Texto da imagem B3</figcaption></figure>
-                <figure class="slide"><img src="image/slider2/studio2.jpg" alt="Descrição da imagem B4"><figcaption>Texto da imagem B4</figcaption></figure>
-                <figure class="slide" aria-hidden="true"><img src="image/slider2/Screen(3).jpg" alt=""><figcaption>Texto da imagem B1</figcaption></figure>
+                <figure class="slide"><img src="image/slider2/Screen(3).jpg" alt=""></figure>
+                <figure class="slide"><img src="image/slider2/Exhibition.jpg" alt=""></figure>
+                <figure class="slide"><img src="image/slider2/flavory.png" alt=""></figure>
+                <figure class="slide"><img src="image/slider2/studio2.jpg" alt=""></figure>
+                <figure class="slide" aria-hidden="true"><img src="image/slider2/Screen(3).jpg" alt=""></figure>
                 </div>
             </div>
-
             <div class="ccon carr3">
                 <div class="track down">
-                <figure class="slide"><img src="image/slider3/macbook.jpg" alt="Descrição da imagem B1"><figcaption>Texto da imagem B1</figcaption></figure>
-                <figure class="slide"><img src="image/slider3/T-Shirt.jpg" alt="Descrição da imagem B2"><figcaption>Texto da imagem B2</figcaption></figure>
-                <figure class="slide"><img src="image/slider3/wake.jpg" alt="Descrição da imagem B3"><figcaption>Texto da imagem B3</figcaption></figure>
-                <figure class="slide"><img src="image/slider3/Bottle.jpg" alt="Descrição da imagem B4"><figcaption>Texto da imagem B4</figcaption></figure>
-                <figure class="slide" aria-hidden="true"><img src="image/slider3/macbook.jpg" alt=""><figcaption>Texto da imagem B1</figcaption></figure>
+                <figure class="slide"><img src="image/slider3/macbook.jpg" alt=""></figure>
+                <figure class="slide"><img src="image/slider3/T-Shirt.jpg" alt=""></figure>
+                <figure class="slide"><img src="image/slider3/wake.jpg" alt=""></figure>
+                <figure class="slide"><img src="image/slider3/Bottle.jpg" alt=""></figure>
+                <figure class="slide" aria-hidden="true"><img src="image/slider3/macbook.jpg" alt=""></figure>
                 </div>
             </div>
         </section>
-        <section class="textabout">
 
+        <section class="sec sec-about" id="about">
+            <div class="about-txt">
+                <h2 data-i18n="about_title">About</h2>
+                <p data-i18n="about_text"></p>
+            </div>
+            <img class="retrato" src="image/Retrato.png" alt="">
         </section>
+
         <section class="port-img">
-            <img class="imgp" src="image/port/idrite/id.jpg" alt="">
-            <img class="imgp" src="image/port/Flavory/Flavory.jpg" alt="">
-            <img class="imgp" src="image/port/4th/4th1.jpg" alt="">
+            <img class="imgp" src="image/slider2/Exhibition.jpg" alt="">
+            <img class="imgp" src="image/slider/lastlab.png" alt="">
+            <img class="imgp" src="image/slider2/Screen(3).jpg" alt="">
             <img class="imgp" src="image/port/dark/dark1.jpg" alt="">
-            <img class="imgp" src="image/port/carbon/carb1.jpg" alt="">
-            <img class="imgp" src="image/port/studio7/studio2.jpg" alt="">
-            <img class="imgp" src="image/port/last/last1.jpg" alt="">
-            <img class="imgp" src="image/port/os kabba/kabba1.jpg" alt="">
-            <img class="imgp" src="image/port/indra/indra.jpg" alt="">
-            <img class="imgp" src="image/port/mihail/mihail.jpg" alt="">
-            <img class="imgp" src="image/port/arthur/vender.jpg" alt="">
-            <img class="imgp" src="image/port/wake up/wake up2.png" alt="">
+        </section>
+
+        <section class="sec sec-work" id="work">
+            <div class="glass">
+                <div class="glass-txt">
+                    <h2 data-i18n="work_title">Work</h2>
+                    <p data-i18n="work_text"></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="port-img">
+            <img class="imgp" src="image/slider3/macbook.jpg" alt="">
+            <img class="imgp" src="image/slider2/studio2.jpg" alt="">
+            <img class="imgp" src="image/slider2/Screen(3).jpg" alt="">
+            <img class="imgp" src="image/slider3/T-Shirt.jpg" alt="">
+        </section>
+
+        <section class="sec sec-contact" id="contact">
+            <div class="glass">
+                <div class="glass-txt contact-row">
+                    <div class="contact-txt">
+                        <h2 data-i18n="contact_title">Contact</h2>
+                        <p data-i18n="contact_text"></p>
+                    </div>
+                    <div class="social">
+                        <a class="soc insta" href="https://www.instagram.com/aittobranding/" target="_blank" rel="noopener" aria-label="Instagram"><img src="image/instagram.svg" alt=""></a>
+                        <a class="soc" href="mailto:aittobranding@gmail.com" aria-label="E-mail"><img src="image/arroba.svg" alt=""></a>
+                        <a class="soc lin" href="mailto:aittobranding@gmail.com" aria-label="E-mail"><img src="image/linkedin.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="port-img">
+            <img class="imgp" src="image/slider2/flavory.png" alt="">
+            <img class="imgp" src="image/slider3/Bottle.jpg" alt="">
+            <img class="imgp" src="image/slider2/carb1.jpg" alt="">
+            <img class="imgp" src="image/slider3/wake.jpg" alt="">
         </section>
     </main>
     <footer>
-        <p>&copy 2026 - VANITAS</p>
+        <p>&copy; 2026 - VANITAS</p>
     </footer>
+    <script src="js/lang.js"></script>
 </body>
 </html>
