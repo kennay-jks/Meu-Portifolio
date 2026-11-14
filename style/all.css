@@ -6,7 +6,7 @@
 :root {
     --color1: #0a0a0a;
     --color2: #f1f4ff;
-    --color3: #697268;
+    --color3: #db1a4a;
     --color4: #161616;
     --nav-h: 56px;
 }
@@ -41,7 +41,7 @@ nav .menu a:hover, nav .menu a.active { color: var(--color3); }
     display: flex; align-items: center; gap: 6px;
     background: none; border: 0; cursor: pointer; padding: 4px;
 }
-.lang-btn img { width: 30px; height: 30px; filter: invert(1); }
+.lang-btn img { width: 30px; height: 30px; }
 .lang-btn span { color: var(--color2); font-size: .8em; text-transform: none; min-width: 2.2em; text-align: left; }
 .lang-btn:hover img { transform: scale(1.1); }
 .lang-btn:focus-visible, nav a:focus-visible { outline: 2px solid var(--color3); outline-offset: 3px; }
