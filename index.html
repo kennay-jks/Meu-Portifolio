@@ -53,7 +53,7 @@
         <section class="sec sec-about" id="about">
             <div class="about-txt">
                 <h2 data-i18n="about_title">About</h2>
-                <p data-i18n="about_text"></p>
+                <p data-i18n="about_text" data-typewriter></p>
             </div>
             <!-- <img class="retrato" src="image/Retrato.jpg" alt=""> -->
         </section>
@@ -86,7 +86,13 @@
                 <div class="glass-txt contact-row">
                     <div class="contact-txt">
                         <h2 data-i18n="contact_title">Contact</h2>
-                        <p data-i18n="contact_text"></p>
+                        <form id="contactForm" class="contact-form">
+                            <input type="email" name="email" data-i18n-ph="form_email" placeholder="E-mail" autocomplete="email" required>
+                            <textarea name="message" data-i18n-ph="form_message" placeholder="Message" required></textarea>
+                            <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+                            <button type="submit" class="send-btn" data-i18n="form_send">Send</button>
+                            <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+                        </form>
                     </div>
                     <div class="social">
                         <a class="soc insta" href="https://www.instagram.com/vanitasbranding/" target="_blank" rel="noopener" aria-label="Instagram"><img src="image/instagram.svg" alt=""></a>

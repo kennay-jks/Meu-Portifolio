@@ -8,49 +8,155 @@
             about_title: 'Sobre', work_title: 'Trabalho', contact_title: 'Contato',
             about_text: 'Incomodado ao ver tantas ideias permanecerem apenas no papel, Jack Kennedy idealizou, em 2018, o que viria a se tornar a Vanitas, fundada em 2019. Um estúdio de branding dedicado à criação de marcas memoráveis, que acredita no poder dos princípios fundamentais do design para transformar conceitos em identidades visuais atemporais.',
             work_text: 'Desde sua criação, em 2019, a Vanitas tem como missão criar significados e contar histórias por meio de linhas e formas. Em seus primeiros anos no mercado, a marca manteve uma forte conexão com o design minimalista e o uso dos princípios da Gestalt, influências diretamente ligadas à visão de seu idealizador e fundador, Jack Kennedy. Com o passar dos anos e o crescimento da equipe, ampliamos nossos horizontes e exploramos novas possibilidades estéticas e conceituais, incorporando diferentes estilos de design para atender a novas ideias, perspectivas e demandas.',
-            contact_text: 'Em um mundo em constante transformação, destacar-se exige mais do que uma boa identidade visual: exige estratégia. Para conquistar um posicionamento sólido e diferenciado, é fundamental unir estética, pesquisa, gestão e acompanhamento contínuo. Entre em contato conosco e descubra como transformar sua marca em uma presença única e memorável, garantindo que ela não seja apenas mais uma entre tantas outras.'
+            contact_text: 'Em um mundo em constante transformação, destacar-se exige mais do que uma boa identidade visual: exige estratégia. Para conquistar um posicionamento sólido e diferenciado, é fundamental unir estética, pesquisa, gestão e acompanhamento contínuo. Entre em contato conosco e descubra como transformar sua marca em uma presença única e memorável, garantindo que ela não seja apenas mais uma entre tantas outras.',
+            form_email: 'E-mail', form_message: 'Mensagem', form_send: 'Enviar',
+            form_sending: 'Enviando...', form_ok: 'Mensagem enviada! Obrigado pelo contato.',
+            form_err: 'Não foi possível enviar. Abrindo seu aplicativo de e-mail...'
         },
         en: {
             nav_about: 'About', nav_work: 'Work', nav_contact: 'Contact',
             about_title: 'About', work_title: 'Work', contact_title: 'Contact',
             about_text: "Unsettled by seeing so many ideas remain nothing more than ideas, Jack Kennedy envisioned in 2018 what would become Vanitas, officially founded in 2019. A branding studio dedicated to creating memorable brands, driven by the belief that the fundamental principles of design have the power to transform concepts into timeless visual identities.",
             work_text: "Since its founding in 2019, Vanitas has been driven by the mission of creating meaning and telling stories through lines and shapes. In its early years, the brand maintained a strong connection to minimalist design and the principles of Gestalt, influences deeply rooted in the vision of its creator and founder, Jack Kennedy. Over the years, as the team grew, we broadened our horizons and explored new aesthetic and conceptual possibilities, embracing different design styles to meet new ideas, perspectives, and demands.",
-            contact_text: "In a constantly evolving world, standing out requires more than just a strong visual identity it requires strategy. Building a solid and distinctive market position means bringing together aesthetics, research, management, and continuous guidance. Get in touch with us and discover how to transform your brand into a unique and memorable presence, ensuring it never becomes just another name among many."
+            contact_text: "In a constantly evolving world, standing out requires more than just a strong visual identity it requires strategy. Building a solid and distinctive market position means bringing together aesthetics, research, management, and continuous guidance. Get in touch with us and discover how to transform your brand into a unique and memorable presence, ensuring it never becomes just another name among many.",
+            form_email: 'E-mail', form_message: 'Message', form_send: 'Send',
+            form_sending: 'Sending...', form_ok: 'Message sent! Thank you for reaching out.',
+            form_err: 'Could not send. Opening your e-mail app...'
         },
         zh: {
             nav_about: '关于', nav_work: '作品', nav_contact: '联系',
             about_title: '关于', work_title: '作品', contact_title: '联系',
             about_text: '由于不愿看到如此多的创意仅仅停留在构想阶段，Jack Kennedy 于 2018 年构思了 Vanitas，并于 2019 年正式创立了这一品牌设计工作室。Vanitas 致力于打造令人难忘的品牌，坚信通过恰当地运用设计的基本原则，能够将理念转化为历久弥新的视觉形象。',
             work_text: '自2019年创立以来，Vanitas 始终秉持着通过线条与形态创造意义、讲述故事的使命。在发展的初期，品牌与极简主义设计及格式塔原理有着深厚的联系，这些理念深受创始人兼创意主导者 Jack Kennedy 的个人设计理念影响。随着时间的推移和团队的不断壮大，我们逐渐拓展了设计视野，探索更多美学与概念上的可能性，并融入不同的设计风格，以满足更多元的创意、观点与需求。',
-            contact_text: '在一个不断变化的世界中，脱颖而出需要的不仅仅是优秀的视觉识别，更需要战略思维。要建立稳固且独特的品牌定位，必须将美学、调研、管理与持续跟进融为一体。 欢迎联系我们，探索如何将您的品牌打造为独特而令人难忘的存在，让它不再只是众多品牌中的普通一员。'
+            contact_text: '在一个不断变化的世界中，脱颖而出需要的不仅仅是优秀的视觉识别，更需要战略思维。要建立稳固且独特的品牌定位，必须将美学、调研、管理与持续跟进融为一体。 欢迎联系我们，探索如何将您的品牌打造为独特而令人难忘的存在，让它不再只是众多品牌中的普通一员。',
+            form_email: '电子邮箱', form_message: '留言', form_send: '发送',
+            form_sending: '发送中...', form_ok: '消息已发送！感谢您的联系。',
+            form_err: '发送失败，正在打开您的邮件应用…'
         },
         ja: {
             nav_about: '概要', nav_work: '作品', nav_contact: '連絡先',
             about_title: '概要', work_title: '作品', contact_title: '連絡先',
             about_text: '数多くのアイデアが構想のまま終わってしまうことに疑問を感じたJack Kennedyは、2018年にVanitasの構想を描き、2019年に正式に設立しました。Vanitasは、記憶に残るブランドの創造に取り組むブランディングスタジオです。デザインの基本原則を的確に活用することで、コンセプトを時代を超えて愛されるビジュアルアイデンティティへと昇華できると信じています。',
             work_text: '2019年の設立以来、Vanitasは線と形を通じて意味を創造し、物語を紡ぐことを使命としてきました。活動初期、ブランドはミニマリズムデザインとゲシュタルトの原則に強く結びついていました。これらは、創設者でありクリエイティブディレクターでもあるJack Kennedyのビジョンに深く根ざしたものです。年月を重ね、チームが成長するにつれて、私たちは視野を広げ、美的・概念的な新たな可能性を探求してきました。そして、多様なデザインスタイルを取り入れることで、より幅広いアイデア、視点、ニーズに応えています。',
-            contact_text: '絶えず変化し続ける世界において、他社との差別化には優れたビジュアルアイデンティティだけでなく、戦略が必要です。確固たる独自のブランドポジショニングを確立するには、美学、リサーチ、マネジメント、そして継続的なサポートを融合させることが重要です。 ぜひ私たちにご相談ください。あなたのブランドを唯一無二の、記憶に残る存在へと導き、数あるブランドの中に埋もれない価値を生み出します。'
+            contact_text: '絶えず変化し続ける世界において、他社との差別化には優れたビジュアルアイデンティティだけでなく、戦略が必要です。確固たる独自のブランドポジショニングを確立するには、美学、リサーチ、マネジメント、そして継続的なサポートを融合させることが重要です。 ぜひ私たちにご相談ください。あなたのブランドを唯一無二の、記憶に残る存在へと導き、数あるブランドの中に埋もれない価値を生み出します。',
+            form_email: 'メールアドレス', form_message: 'メッセージ', form_send: '送信',
+            form_sending: '送信中...', form_ok: '送信しました。お問い合わせありがとうございます。',
+            form_err: '送信できませんでした。メールアプリを開きます…'
         }
     };
 
     const btn = document.getElementById('langBtn');
     const code = document.getElementById('langCode');
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     let cur = 'en';
     try { const s = localStorage.getItem('vanitas-lang'); if (LANGS.includes(s)) cur = s; } catch (e) {}
+
+    /* ---------- MÁQUINA DE ESCREVER (seção About) ---------- */
+    const twEl = document.querySelector('[data-typewriter]');
+    let twStarted = false, twTimer = null;
+
+    function renderTypewriter(text, play) {
+        clearTimeout(twTimer);
+        twEl.textContent = '';
+        // "ghost" reserva o espaço do texto completo (sem pulo de layout);
+        // "live" é o texto sendo digitado por cima.
+        const ghost = document.createElement('span');
+        ghost.className = 'tw-ghost';
+        ghost.textContent = text;
+        const live = document.createElement('span');
+        live.className = 'tw-live';
+        live.setAttribute('aria-hidden', 'true');
+        twEl.append(ghost, live);
+        if (!play) return;
+        if (reduceMotion) { live.textContent = text; return; }
+        const chars = Array.from(text);
+        const delay = (cur === 'zh' || cur === 'ja') ? 55 : 22;
+        let i = 0;
+        live.classList.add('typing');
+        (function step() {
+            live.textContent = chars.slice(0, ++i).join('');
+            if (i < chars.length) twTimer = setTimeout(step, delay);
+            else live.classList.remove('typing');
+        })();
+    }
+
+    if (twEl) {
+        new IntersectionObserver((es, obs) => {
+            if (es[0].isIntersecting && !twStarted) {
+                twStarted = true;
+                renderTypewriter(T[cur].about_text, true);
+                obs.disconnect();
+            }
+        }, { threshold: 0.4 }).observe(twEl);
+    }
+
+    /* ---------- IDIOMA ---------- */
+    const status = document.getElementById('formStatus');
+    let statusKey = '';
+    function showStatus(key, type) {
+        statusKey = key;
+        status.dataset.state = type || '';
+        status.textContent = key ? T[cur][key] : '';
+    }
 
     function apply(lang) {
         cur = lang;
         document.documentElement.lang = HTML_LANG[lang];
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const v = T[lang][el.dataset.i18n];
-            if (v) el.textContent = v;
+            if (!v) return;
+            if (el.hasAttribute('data-typewriter')) renderTypewriter(v, twStarted);
+            else el.textContent = v;
         });
+        document.querySelectorAll('[data-i18n-ph]').forEach(el => {
+            el.placeholder = T[lang][el.dataset.i18nPh];
+            el.setAttribute('aria-label', T[lang][el.dataset.i18nPh]);
+        });
+        if (statusKey) status.textContent = T[lang][statusKey];
         code.textContent = LABEL[lang];
         btn.setAttribute('aria-label', 'Language: ' + LABEL[lang]);
         try { localStorage.setItem('vanitas-lang', lang); } catch (e) {}
     }
     btn.addEventListener('click', () => apply(LANGS[(LANGS.indexOf(cur) + 1) % LANGS.length]));
     apply(cur);
+
+    /* ---------- FORMULÁRIO DE CONTATO ---------- */
+    const TO_EMAIL = 'vanitasbranding@gmail.com';
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', async e => {
+        e.preventDefault();
+        if (form._honey.value) return;                       // anti-spam (honeypot)
+        const email = form.email.value.trim();
+        const message = form.message.value.trim();
+        if (!email || !message) return;
+        const sendBtn = form.querySelector('button[type="submit"]');
+        sendBtn.disabled = true;
+        showStatus('form_sending', 'info');
+        try {
+            const res = await fetch('https://formsubmit.co/ajax/' + TO_EMAIL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                body: JSON.stringify({
+                    email, message,
+                    _subject: 'Novo contato pelo site VANITAS',
+                    _template: 'table',
+                    _captcha: 'false'
+                })
+            });
+            const data = await res.json().catch(() => ({}));
+            if (!res.ok || data.success === 'false' || data.success === false) throw new Error('send');
+            showStatus('form_ok', 'ok');
+            form.reset();
+        } catch (err) {
+            // plano B: abre o app de e-mail do visitante já preenchido
+            showStatus('form_err', 'error');
+            location.href = 'mailto:' + TO_EMAIL +
+                '?subject=' + encodeURIComponent('Contato pelo site VANITAS') +
+                '&body=' + encodeURIComponent(message + '\n\n' + email);
+        } finally {
+            sendBtn.disabled = false;
+        }
+    });
 
     // destaca no menu a seção visível
     const links = document.querySelectorAll('.menu a[href^="#"]');
